@@ -36,6 +36,15 @@
             font-size: 40px;
             margin-bottom: .3rem;
         }
+        #paragraph{
+            font-size: 18px;
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            background: #fff;
+            color: #333;
+            padding: 01rem;
+        }
+
 
         /* header p {
             text-align: center;
@@ -138,6 +147,7 @@
 <body>
     <header id="header">
         <h1>Let's Fun!</h1>
+        <p class="hide" id="paragraph"></p>
         <p></p>
         
     </header>
@@ -145,13 +155,10 @@
         <form id="input-form">
             <div class="input-group">
                 <label for="typing-input">Your Typing Time is Started!</label>
-                <textarea id="typing-input"></textarea>
+                <textarea id="typing-input" spellcheck="true"></textarea>
             </div>
         </form>
-        <!-- <div class="timing">
-            <p>Time: <span id="display-timig">0</span></p>
 
-        </div> -->
     </section>
 
     <section class="section-btn">
